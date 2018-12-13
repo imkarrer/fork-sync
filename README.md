@@ -10,7 +10,7 @@
 
 2. Run the following to initialize the container and update your branch.
 
-`docker run -it -v <path_to_gh_sshkey>:/root/.ssh --name master master/git:1.0`
+`docker run -it -v <path_to_gh_sshkey>:/root/.ssh --name master fork-sync/master:1.0`
 
 3. Run the following to update your branch now that the container exists
 
